@@ -1,0 +1,5 @@
+# Design working files stay local: GitHub Pages would publish them.
+.impeccable/
+PRODUCT.md
+DESIGN.md
+node_modules/

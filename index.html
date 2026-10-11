@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GW Cadet: bulk Google Workspace administration in Google Sheets</title>
+<meta name="description" content="GW Cadet is a Google Sheets add-on for Google Workspace administrators: list users, groups and devices into a sheet, choose what should change, and apply it to every row at once.">
+<link rel="canonical" href="https://www.gwcadet.com/">
+<meta property="og:title" content="GW Cadet">
+<meta property="og:description" content="Bulk Google Workspace administration, right from a spreadsheet.">
+<meta property="og:url" content="https://www.gwcadet.com/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.gwcadet.com/apple-touch-icon.png">
+<meta name="theme-color" content="#dec492">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/img/cadet-badge.webp" width="52" height="52" alt="">GW Cadet</a>
+    <nav aria-label="Site">
+      <ul class="nav-links">
+        <li><a href="#how">How it works</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li class="cta"><a class="btn small" href="#waitlist">Join the waitlist</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="title">
+    <div class="wrap">
+      <div>
+        <h1 id="title">Bulk Google Workspace admin, right from a spreadsheet.</h1>
+        <p class="sub">List your users, groups and devices into a sheet, choose what should change, and apply it to every row at once. Nothing runs until you confirm it, and each row gets a result written back beside it.</p>
+
+        <form class="waitlist" id="waitlist" data-waitlist novalidate>
+          <label for="email">Get an email when GW Cadet is ready to install</label>
+          <div class="row">
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@school.org" required>
+            <button class="btn" type="submit">Join the waitlist</button>
+          </div>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="stage">
+        <span class="ground" aria-hidden="true"></span>
+        <img class="cadet" src="/img/cadet-full.webp" width="364" height="1057" alt="The GW Cadet mascot, a cartoon cadet in desert camouflage with a GW name tape, standing with arms crossed.">
+        <figure class="shot results">
+          <img src="/img/results.webp" width="416" height="110" alt="The Action and Result columns of a sheet: suspend wrote suspended, and move to Demo OU wrote moved to /Demo OU, both in green.">
+          <figcaption>Every row gets its result.</figcaption>
+        </figure>
+        <figure class="shot confirm">
+          <img src="/img/confirm-dialog.webp" width="340" height="290" alt="GW Cadet's Apply actions dialog: About to run 2 actions on Users, move times 1, suspend times 1, with Cancel and OK buttons.">
+          <figcaption>Nothing runs until you confirm.</figcaption>
+        </figure>
+        <span class="tape sample">Test domain · sample users</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how" aria-labelledby="how-h">
+    <div class="wrap">
+      <h2 id="how-h">Three steps, every time.</h2>
+      <p class="intro">The GW Cadet sidebar walks you through the same loop for every kind of change.</p>
+      <ol class="steps">
+        <li>
+          <span class="num">1</span>
+          <h3>List</h3>
+          <p>Pull users, groups, org units, devices, rooms, licenses or audit activity into a sheet from the GW Cadet sidebar.</p>
+          <figure><img src="/img/three-steps.webp" width="270" height="118" alt="The GW Cadet sidebar's reminder card: 1. List data to sheet, 2. Pick Action dropdown, 3. Apply results to sheet."></figure>
+        </li>
+        <li>
+          <span class="num">2</span>
+          <h3>Pick an action</h3>
+          <p>Choose a change for each row from the Action dropdown: suspend, move, reset a password, change a role, assign a license, and more.</p>
+          <figure><img src="/img/actions.webp" width="270" height="96" alt="The sidebar's action chips for Users: suspend, unsuspend, move:/OU, reset, setfield, delete, above an Apply actions in Users button."></figure>
+        </li>
+        <li>
+          <span class="num">3</span>
+          <h3>Apply</h3>
+          <p>GW Cadet shows exactly what is about to happen, runs it after you confirm, and writes each row's outcome in the Result column. Changes already in place are marked as already done instead of being repeated.</p>
+          <figure><img src="/img/role-result.webp" width="414" height="48" alt="A Group Members row: Action role:MANAGER, Result role set to MANAGER, in green."></figure>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section alt" aria-labelledby="manage-h">
+    <div class="wrap">
+      <h2 id="manage-h">Everything you touch in a normal week.</h2>
+      <ul class="areas">
+        <li><b>Users</b><span>Create in bulk from a template, suspend and restore, move between org units, reset passwords, grant or revoke admin, and edit profile fields.</span></li>
+        <li><b>Custom user fields</b><span>Create your own directory fields, such as an employee or student ID, and control who can see them.</span></li>
+        <li><b>Groups</b><span>Create, rename and delete groups, manage members and roles, and change group settings such as who can join or post.</span></li>
+        <li><b>Organizational units</b><span>List, create, rename and delete org units.</span></li>
+        <li><b>ChromeOS devices</b><span>List, disable, re-enable, deprovision and move devices.</span></li>
+        <li><b>Calendar resources</b><span>Create and manage meeting rooms and equipment.</span></li>
+        <li><b>Licenses</b><span>See who holds which Google license, then assign, change or remove licenses in bulk.</span></li>
+        <li><b>Audit reports</b><span>Pull recent sign-in and admin activity into a sheet, read-only.</span></li>
+      </ul>
+      <figure class="wide-shot">
+        <img src="/img/license-row.webp" width="530" height="52" alt="A Licenses sheet row: demo.cara@assetctl.io, Business Starter, result assigned Business Starter.">
+        <figcaption>Licenses use the same Action and Result columns.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="privacy-h">
+    <div class="wrap privacy">
+      <img class="badge" src="/img/cadet-badge.webp" width="256" height="256" alt="">
+      <div>
+        <h2 id="privacy-h">Your data stays between Google and your sheet.</h2>
+        <ul class="facts">
+          <li>GW Cadet runs entirely inside Google. It works through Google's own APIs and your spreadsheet, with no outside server.</li>
+          <li>Your directory data is never sent to us or to anyone else, and we never sell it or use it for advertising or AI training.</li>
+          <li>It can open only the spreadsheet it is running in, never any other file in your Drive. It can only do what your admin account is already allowed to do.</li>
+        </ul>
+        <p class="links-row"><a href="/privacy/">Read the Privacy Policy</a><a href="/terms/">Read the Terms of Service</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section close" aria-labelledby="close-h">
+    <div class="wrap">
+      <div>
+        <h2 id="close-h">Made for the person everyone asks.</h2>
+        <p>Google Workspace administrators at schools, nonprofits and businesses who manage more than a handful of accounts, and want routine changes to take minutes instead of an afternoon of clicking.</p>
+        <p>Questions, problems or feature requests: email <a href="mailto:admin@gwcadet.com">admin@gwcadet.com</a>.</p>
+      </div>
+      <div class="card">
+        <h3>Be first to install it</h3>
+        <p>One email when GW Cadet is live on the Google Workspace Marketplace.</p>
+        <form class="waitlist" data-waitlist novalidate>
+          <label for="email2">Work email</label>
+          <div class="row">
+            <input id="email2" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@school.org" required>
+            <button class="btn" type="submit">Join the waitlist</button>
+          </div>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>GW Cadet is made by WolfLoop Technology, Nova Scotia, Canada. It is not made or endorsed by Google. Google Workspace and Google Sheets are trademarks of Google LLC.</p>
+    <nav aria-label="Footer"><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a><a href="mailto:admin@gwcadet.com">admin@gwcadet.com</a></nav>
+  </div>
+</footer>
+
+<script src="/js/site.js" defer></script>
+</body>
+</html>
