@@ -4,8 +4,8 @@
 // Fill both in once the form exists (see README.md). While they are empty,
 // the form falls back to opening an email to admin@gwcadet.com.
 const WAITLIST = {
-  formAction: '', // https://docs.google.com/forms/d/e/<FORM_ID>/formResponse
-  emailEntry: '', // entry.<NUMBER> of the email question
+  formAction: 'https://docs.google.com/forms/d/e/1FAIpQLSf99Qi2T9bopDU0xLZfmNFLWGUQqSznTEQUmkvSw06ck--WKQ/formResponse',
+  emailEntry: 'entry.2010855589', // the form's Email question
 };
 
 // ---- waitlist -------------------------------------------------------------
