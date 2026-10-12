@@ -216,6 +216,12 @@ a:hover { text-decoration-thickness: 2px; }
 .close .card h3 { margin: 0 0 6px; font-size: 1.4rem; font-weight: 800; }
 .close .card p { margin: 0 0 18px; color: var(--ink-soft); }
 
+.pick { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
+.pick .facts { margin-bottom: 0; }
+.dropdown-shot { justify-self: center; margin: 0; padding: 12px; background: var(--white); border-radius: 14px; box-shadow: 0 0 0 1px var(--line), 0 24px 40px -24px rgba(60,40,20,.55); }
+.dropdown-shot img { display: block; width: 236px; max-width: 100%; height: auto; border-radius: 6px; }
+.dropdown-shot figcaption { max-width: 236px; padding: 10px 2px 0; font-size: .9rem; color: var(--ink-soft); }
+
 /* ---------------------------------------------------------------- foot -- */
 .foot { padding: 34px 0 44px; background: var(--tape); color: #d9ccb0; font-size: .98rem; }
 .foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px 30px; }
@@ -246,7 +252,7 @@ a:hover { text-decoration-thickness: 2px; }
   .shot.confirm { width: 54%; top: 170px; right: 0; }
   .hero .tape.sample { bottom: 6px; }
   .steps, .areas { grid-template-columns: 1fr; }
-  .privacy, .close .wrap { grid-template-columns: 1fr; gap: 28px; }
+  .privacy, .close .wrap, .pick { grid-template-columns: 1fr; gap: 28px; }
   .privacy .badge { width: 160px; height: 160px; }
   .nav-links li:not(.cta) { display: none; }
   .section { padding: 64px 0; }
