@@ -257,6 +257,13 @@ a:hover { text-decoration-thickness: 2px; }
   .nav-links li:not(.cta) { display: none; }
   .section { padding: 64px 0; }
 }
+/* single column: the dropdown section centres as one block */
+@media (max-width: 900px) {
+  .pick { justify-items: center; text-align: center; }
+  .pick > div { max-width: 640px; }
+  .pick .intro { margin-left: auto; margin-right: auto; }
+  .pick .facts { display: inline-block; text-align: left; }
+}
 @media (max-width: 480px) {
   .stage { height: 470px; }
   .shot.results { width: 64%; }
