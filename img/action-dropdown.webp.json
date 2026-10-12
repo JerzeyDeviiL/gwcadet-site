@@ -1,4 +1,4 @@
 {
-  "prompt": "Origin: screenshot of the real GW Cadet add-on's Action dropdown on the Users sheet of the assetctl.io test domain (sample org units and custom field), captured with Playwright on 2026-10-12 and cropped with ffmpeg to the Action and Result columns; no generation.",
-  "createdAt": "2026-10-12T00:30:55.621Z"
+  "prompt": "Origin: screenshot of the real GW Cadet add-on's Action dropdown on the Users sheet of the assetctl.io test domain (sample org units and custom field), opened on F2 under the Action header, captured with Playwright on 2026-10-12 and cropped with ffmpeg to the Action and Result columns; no generation.",
+  "createdAt": "2026-10-12T00:36:49.173Z"
 }

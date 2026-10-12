@@ -219,8 +219,8 @@ a:hover { text-decoration-thickness: 2px; }
 .pick { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
 .pick .facts { margin-bottom: 0; }
 .dropdown-shot { justify-self: center; margin: 0; padding: 12px; background: var(--white); border-radius: 14px; box-shadow: 0 0 0 1px var(--line), 0 24px 40px -24px rgba(60,40,20,.55); }
-.dropdown-shot img { display: block; width: 236px; max-width: 100%; height: auto; border-radius: 6px; }
-.dropdown-shot figcaption { max-width: 236px; padding: 10px 2px 0; font-size: .9rem; color: var(--ink-soft); }
+.dropdown-shot img { display: block; width: 240px; max-width: 100%; height: auto; border-radius: 6px; }
+.dropdown-shot figcaption { max-width: 240px; padding: 10px 2px 0; font-size: .9rem; color: var(--ink-soft); }
 
 /* ---------------------------------------------------------------- foot -- */
 .foot { padding: 34px 0 44px; background: var(--tape); color: #d9ccb0; font-size: .98rem; }
