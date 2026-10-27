@@ -17,6 +17,8 @@ const PAGES = [
     blurb: 'How GW Cadet and gwcadet.com handle information.' },
   { slug: 'terms', file: 'TERMS_OF_SERVICE.md', heading: 'Terms of Service',
     blurb: 'The agreement for using GW Cadet.' },
+  { slug: 'support', file: 'SUPPORT.md', heading: 'Support',
+    blurb: 'How to reach us and answers to common questions.' },
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -49,7 +51,7 @@ function render({ slug, file, heading, blurb }) {
 <link rel="icon" href="/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/site.css?v=20261012">
+<link rel="stylesheet" href="/css/site.css?v=20261024">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -61,6 +63,7 @@ function render({ slug, file, heading, blurb }) {
         <li><a href="/#how">How it works</a></li>
         ${tab('/privacy/', 'Privacy', slug === 'privacy')}
         ${tab('/terms/', 'Terms', slug === 'terms')}
+        ${tab('/support/', 'Support', slug === 'support')}
         <li class="cta"><a class="btn small" href="/#waitlist">Join the waitlist</a></li>
       </ul>
     </nav>
@@ -84,7 +87,7 @@ ${body}
 <footer class="foot">
   <div class="wrap">
     <p>GW Cadet is made by WolfLoop Technology, Nova Scotia, Canada. It is not made or endorsed by Google.</p>
-    <nav aria-label="Footer"><a href="/">Home</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a><a href="mailto:admin@gwcadet.com">admin@gwcadet.com</a></nav>
+    <nav aria-label="Footer"><a href="/">Home</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a><a href="/support/">Support</a><a href="mailto:admin@gwcadet.com">admin@gwcadet.com</a></nav>
   </div>
 </footer>
 </body>
