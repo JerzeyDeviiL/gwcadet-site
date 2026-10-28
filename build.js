@@ -64,7 +64,7 @@ function render({ slug, file, heading, blurb }) {
         ${tab('/privacy/', 'Privacy', slug === 'privacy')}
         ${tab('/terms/', 'Terms', slug === 'terms')}
         ${tab('/support/', 'Support', slug === 'support')}
-        <li class="cta"><a class="btn small" href="/#waitlist">Join the waitlist</a></li>
+        <li class="cta"><a class="btn small" href="https://workspace.google.com/marketplace/app/gw_cadet/72688054574">Install</a></li>
       </ul>
     </nav>
   </div>
